@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "segFont";
+    src: url("../../public/16Segments-Basic.woff2");
+  }
+
+.number {
+    font-family: "segFont";
+    font-size: 3em;
+}

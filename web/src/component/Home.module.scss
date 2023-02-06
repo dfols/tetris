@@ -1,0 +1,52 @@
+.WelcomeMessage{
+
+text-align: center;
+}
+.Instructions{
+background-color: orange;
+margin-left: 25%;
+margin-right: 25%;
+text-align: center  ;
+}
+.InstructionsHeader{
+    text-align: center;
+    background-color: red;
+}
+    
+ h3.text{
+    color:white ;
+    text-align: left;
+    padding-bottom: 5px;
+ 
+    b{
+    color:pink;
+    }
+}
+b{
+    color:#38b6ff
+}
+    
+@keyframes titleTextAnim {
+    0% {
+        color: red;
+    }
+    100% {
+        color: black;
+    }
+  }
+
+@font-face {
+    font-family: "warriorbrush";
+    src: url("../../public/warriorbrush.ttf");
+  }
+
+#titleText {
+    font-display: block;
+    font-family: "warriorbrush";
+    font-size: 4em;
+
+    animation-name: titleTextAnim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

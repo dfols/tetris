@@ -1,0 +1,41 @@
+
+#boardContainer {
+    margin-top: 3em;
+    //width: 350px;
+}
+
+@keyframes gameOverColorAnim {
+    0% {
+      color: magenta;
+    }
+    33% {
+        color: greenyellow;
+    }
+    66% {
+        color: cyan;
+    }
+    100% {
+        color: magenta;
+    }
+  }
+
+@font-face {
+    font-family: "warriorbrush";
+    src: url("../../public/warriorbrush.ttf");
+  }
+
+#gameOverContainer {
+    font-display: block;
+    font-family: "warriorbrush";
+    font-size: 3em;
+
+    animation-name: gameOverColorAnim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#restartButton {
+    background-color: yellow;
+    border-radius: 8px;
+}

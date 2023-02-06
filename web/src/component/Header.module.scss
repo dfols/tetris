@@ -1,0 +1,15 @@
+.Header{
+    color:black;
+}
+.Header a{
+    color: black;
+background-color: whitesmoke;
+border-radius: 5px;
+}
+.Header a:hover{
+    color: black;
+    background-color: red;
+}
+.Header  p:active, h1:active, a:active {
+    color: lightblue;
+}
