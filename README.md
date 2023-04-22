@@ -8,7 +8,7 @@ The name *Square Disturb* is being used as a placeholder for the project.
 | Name | Role
 |----|----
 | Trevor Mack | Project Lead
-| Dylan Foley | Senior Developer
+| dfols | Senior Developer
 | Luke Rossini | Junior Developer
 
 ## Technology Used
